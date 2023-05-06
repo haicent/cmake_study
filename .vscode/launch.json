@@ -1,0 +1,25 @@
+{ 
+    "version": "0.2.0", 
+    "configurations": [ 
+     { 
+      "name": "Bash-Debug (type in script name)", 
+      "type": "bashdb", 
+      "request": "launch", 
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "externalConsole": false,
+      "program": "rerun.sh", 
+      "commandLineArguments": "", 
+      "windows": { 
+       "bashPath": "C:\\Windows\\sysnative\\bash.exe" 
+      }, 
+      "linux": { 
+       "bashPath": "bash" 
+      }, 
+      "osx": { 
+       "bashPath": "bash" 
+      } 
+     } 
+    ] 
+} 

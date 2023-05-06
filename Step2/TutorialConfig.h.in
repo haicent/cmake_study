@@ -1,0 +1,4 @@
+// the configured options and settings for Tutorial
+#define Tutorial_VERSION_MAJOR @Tutorial_VERSION@
+#define Tutorial_VERSION_MINOR @Tutorial_VERSION@
+#cmakedefine USE_MYMATH
